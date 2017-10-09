@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "math.h"
 
-int main(void)
+int math(int num1, int num2, char Operator)
 {
-	char operator;
-	int num1, num2;
 
-	switch (operator)
+	switch (Operator)
 	{
 	case '+':
 		return(num1 + num2); //points to input above and assigns to xNumber
